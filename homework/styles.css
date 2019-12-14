@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: 0.3s;
+  background: #333;
+}
+
+button {
+  margin: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+button:focus {
+  border: 4px solid rgb(167, 223, 240);
+}
+
+.btn-green {
+  background: rgb(23, 235, 136);
+}
+
+.btn-red {
+  background: rgb(247, 62, 62);
+}
